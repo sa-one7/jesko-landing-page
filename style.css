@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+}
+html,body{
+    /* height: 100%; */
+    width: 100%;
+}
+#main{
+    background: url(img/jesko\ absolut.jpg);
+    background-size: cover;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    height: 100%;
+}
+/* #main{
+    height: 100%;
+    width: 100%;
+} */
+
+#nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    
+}
+#nav-prt2{   
+    display: flex;
+    /* width: 40%; */
+    align-items: center;
+    justify-content: space-between;
+}
+#nav-prt2 h5{
+    margin: 0 22px;
+}
+#nav-prt2 h5:hover{
+    cursor: pointer;
+}
+#nav h1{
+    font-size: 20px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+}
+#nav i{
+    font-size: 20px;
+    margin-right: 5px;
+}
+#nav h5{
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+#nav img{
+    height: 50px;
+}
+#line{
+    width: 80px;
+    height: 2px;
+    background-color: black;
+}
+
+#content{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+#left{
+    width: 38%;
+    height: 100%;
+    /* background-color: red; */
+    padding-left: 40px;
+    padding-right: 35px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#center{
+    width: 28%;
+    height: 100%;
+}
+#right{
+    width: 38%;
+    height: 100%;
+    padding: 180px 250px;
+}
+#left h1{
+    font-size: 58px;
+    line-height: 75px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+#left p span, h1 span{
+    color: rgb(53, 148, 15);
+    /* font-weight: 600; */
+}
+#left p{
+    font-size: 19px;
+    width: 80%;
+    font-weight: 500;
+}
+#center img{
+    width: 450px;
+    padding-top: 105px;
+    margin-left: 100px;
+}
+#left button{
+    background-color: rgb(27, 12, 12);
+    padding: 10px 20px;
+    color: white;
+    border-radius: 35px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    margin-top: 35px;
+}
+#left button:hover{
+    cursor: pointer;
+    background-color: rgb(82, 27, 27);
+    transition: ease 0.8s;
+}
+#right-elems{
+    width: 250px;
+}
+#elem1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    opacity: 0.6;
+    border-bottom: solid black;
+}
+#elem1 h1{
+    font-size: 20px;
+    font-weight: 600;
+}
+#elem1 i{
+    font-size: 20px;
+}
+#elem2 h1{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    padding-top: 15px;
+}
+#elem2 p{
+    font-size: 18px;
+    width: 85%;
+    opacity: 0.8;
+}
